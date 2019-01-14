@@ -1,0 +1,61 @@
+/**{background-color: aqua}*/
+
+@keyframes resize {
+    0%,
+    100% {
+        height: 300px
+    }
+
+    30% {height: 300px}
+    
+    
+    
+    50% {
+        height: 50px
+    }
+}
+
+.animation img {
+    animation-name: resize;
+    animation-iteration-count: 11;
+    animation-duration: 11s;
+}
+
+
+.pole{height: 50;width: 50;
+background-color: black; color: white;
+}
+
+
+@keyframes odliczanie {
+    0%,
+    100% {
+        height: 300px; 
+    }
+
+    30% {height: 300px}
+    
+    
+    
+    50% {
+        height: 50px
+    }
+}
+
+@keyframes odliczanie{
+    0%,100%{
+        
+        10%{erase}
+    }
+}
+
+
+
+
+
+.animation1 {
+    animation-name: odliczanie;
+    animation-iteration-count: 11;
+    animation-duration: 11s;
+}
+

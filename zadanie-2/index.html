@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Zadanie-2</title>
+</head>
+
+<body>
+
+    <form action="https://formspree.io/kistry@o2.pl" method="post">
+
+        <label for="imie">Imię</label><br>
+        <input type="text" name="name" id="imie" /><br />
+
+        <label for="nazwisko">Nazwisko</label><br />
+        <input type="text" name="nazwisko" id="nazwisko" /><br />
+
+        <label for="email">email</label><br>
+        <input type="email" name="email" id="email" /><br />
+
+        <label for="telefon">telefon</label><br>
+        <input type="tel" name="telefon" id="telefon" /><br />
+
+        <label for="wybor">Miasto</label>
+        <select name="miasto" id=wybor>
+            <option value="Kraków">Kraków</option>
+            <option value="Warszawa">Warszawa</option>
+            <option value="Gdańsk">Gdańsk</option>
+        </select>
+        <br>
+
+        
+        <input type="radio" name="plec" value="meszczyzna" id="meszczyzna" /><label for="meszczyzna">męszczyzna</label><br>
+        <input type="radio" name="plec" value="kobieta" id="kobieta"/><label for="kobieta">kobieta</label><br>
+
+        <input type="checkbox" name="zgoda" value="zgoda" id="zgoda" /><label for="zgoda">zgoda na dane przetwarzanie danych osobowych</label><br>
+
+        <textarea rows="5" cols="30" name="wiadomosc">wiadomość</textarea><br>
+
+        <input type="submit" value="Wyślij" />
+
+    </form>
+
+</body>
+
+</html>

@@ -1,0 +1,82 @@
+#relativ {
+    position: relative;
+    width: 600px;
+    height: 600px;
+    left: 0px;
+    top: 0px;
+    border: 3px solid black;
+}
+
+#k1 {
+    position: absolute;
+    background-color: red;
+    top: 0px;
+    left: 0px;
+}
+
+#k2 {
+    background-color: blue;
+    top: 0px;
+    left: 200px;
+}
+
+#k3 {
+    background-color: green;
+    top: 0px;
+    left: 400px;
+}
+
+#k4 {
+    background-color: yellow;
+    top: 200px;
+    left: 0px;
+
+}
+
+#k5 {
+    background-color: black;
+    top: 200px;
+    left: 200px;
+}
+
+#k6 {
+    background-color: orange;
+    top: 200px;
+    left: 400px;
+}
+
+#k7 {
+    background-color: blueviolet;
+    top: 400px;
+    left: 00px;
+}
+
+#k8 {
+    background-color: grey;
+    top: 400px;
+    left: 200px;
+}
+
+#k9 {
+    background-color: lightpink;
+    top: 400px;
+    left: 400px;
+}
+
+div.circle {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    margin: 39px;
+    border: 3px solid black;
+}
+
+div.kw {
+    top: 00px;
+    left: 00px;
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    border: 8px solid white;
+}

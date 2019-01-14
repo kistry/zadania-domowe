@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>repl.it</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    
+    <div id="relativ">relativ
+        <div id="absolute">absolute</div>
+        <div id="absolute1">absolute1</div>          
+ </div>
+    
+        
+    <script src="script.js"></script>
+  </body>
+</html>
+
+
+#relativ {
+    position: relative;
+    width: 400px;
+    height:400px;
+    background-color:grey;
+    left:0px;
+    top: 0px;
+    border:2px solid;
+}
+
+#absolute {
+    position: absolute;
+    width: 200px;
+    height:200px;
+    background-color: orange;
+    left: 0px;
+    top:  200px;
+}
+
+#absolute1 {
+    position: absolute;
+    width: 200px;
+    height:200px;
+    background-color: white;
+    left: 200px;
+    top:  0px;
+}
