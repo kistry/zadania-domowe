@@ -1,9 +1,9 @@
-// 'use strict';
+'use strict';
 
-console.log("test");
+// console.log("test");
 let n = 4;
 
-// function fibonici(n) {
+function fibonici(n) {
     let liczba=[0];
     
     if (n < 0) { console.log("wartosc ponizej 0");};
@@ -12,7 +12,7 @@ let n = 4;
     if (n == 0) { liczba[0] = 0;};
 
     // if (n == 1) { liczba[1] = 1; console.log(0 + ',' + 1);};
-    if (n == 1) { liczba[1] = 1;};
+    if (n == 1) { liczba[1] = 1; };
     
     if (n == 2) { liczba[2] = 2;};
         
@@ -21,15 +21,16 @@ let n = 4;
         liczba[1] = 1;
         liczba[2] = 2;
 
-         for (let i = 3; i < ns; i++) {
+         for (let i = 3; i < n; i++) {
             liczba += ((i - 1) + (i - 2));
             console.log(liczba + ",");
         }; 
     };
+}
 //    return liczba;
 
 // };
-// console.log(fibonici(4));
+console.log(fibonici(2));
 //  console.log(liczba);
 
 // let iloczyn=0;

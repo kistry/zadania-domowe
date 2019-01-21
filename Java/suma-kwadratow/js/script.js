@@ -12,7 +12,7 @@ function sumaKw() {
     return wynik;
 };
 
-console.log(sumaKw(tablica));
+console.log("suma kwadratow liczb="+ sumaKw(tablica));
 
 /* Zadanie #13387: 4-suma-kwadratow
 
